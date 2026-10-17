@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FinBot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <aside class="side">
+    <div class="brand">
+      <div class="logo">F</div>
+      <div>
+        <h1>FinBot</h1>
+        <p>Assistente de finanças</p>
+      </div>
+    </div>
+
+    <h2>Arquivos</h2>
+    <label class="drop" id="drop">
+      <input type="file" id="file" multiple hidden accept=".xlsx,.xls,.csv,.pdf,.docx,.txt">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4m0 0l-4 4m4-4l4 4"/><path d="M4 16v3a1 1 0 001 1h14a1 1 0 001-1v-3"/></svg>
+      <strong>Enviar arquivo</strong>
+      <span>Arraste aqui ou clique<br>xlsx, csv, pdf, docx, txt</span>
+    </label>
+
+    <ul class="files" id="files"></ul>
+    <button class="ghost" id="clear" hidden>Remover todos</button>
+  </aside>
+
+  <main class="chat">
+    <header>
+      <span id="status" class="badge off">Sem arquivos</span>
+    </header>
+
+    <div class="log" id="log">
+      <div class="empty" id="empty">
+        <div class="logo big">F</div>
+        <h2>Como posso ajudar?</h2>
+        <p>Pergunte sobre finanças ou envie uma planilha para eu analisar.</p>
+        <div class="chips">
+          <button class="chip">Como montar uma reserva de emergência?</button>
+          <button class="chip">Qual a diferença entre CDB e Tesouro Selic?</button>
+          <button class="chip">Como organizar meu orçamento mensal?</button>
+        </div>
+      </div>
+    </div>
+
+    <form class="composer" id="form">
+      <textarea id="input" rows="1" placeholder="Digite sua mensagem..." autofocus></textarea>
+      <button id="send" aria-label="Enviar">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M3.4 20.4l17.45-7.48a1 1 0 000-1.84L3.4 3.6a.993.993 0 00-1.39.91L2 9.12c0 .5.37.93.87.99L17 12 2.87 13.88c-.5.07-.87.5-.87 1l.01 4.61c0 .71.73 1.2 1.39.91z"/></svg>
+      </button>
+    </form>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

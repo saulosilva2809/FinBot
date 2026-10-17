@@ -1,0 +1,25 @@
+data,categoria,descricao,tipo,valor
+2025-01-05,Salário,Salário mensal,receita,6500.00
+2025-01-08,Moradia,Aluguel,despesa,1800.00
+2025-01-10,Alimentação,Supermercado,despesa,950.00
+2025-01-12,Transporte,Combustível,despesa,380.00
+2025-01-15,Lazer,Cinema e restaurante,despesa,260.00
+2025-01-20,Saúde,Plano de saúde,despesa,450.00
+2025-01-25,Investimentos,Aporte Tesouro Selic,despesa,800.00
+2025-02-05,Salário,Salário mensal,receita,6500.00
+2025-02-07,Renda extra,Freelance de design,receita,1200.00
+2025-02-08,Moradia,Aluguel,despesa,1800.00
+2025-02-10,Alimentação,Supermercado,despesa,1020.00
+2025-02-14,Transporte,Combustível,despesa,410.00
+2025-02-18,Lazer,Show,despesa,520.00
+2025-02-20,Saúde,Plano de saúde,despesa,450.00
+2025-02-25,Investimentos,Aporte Tesouro Selic,despesa,800.00
+2025-03-05,Salário,Salário mensal,receita,6500.00
+2025-03-08,Moradia,Aluguel,despesa,1800.00
+2025-03-09,Moradia,Conta de luz,despesa,240.00
+2025-03-10,Alimentação,Supermercado,despesa,1100.00
+2025-03-13,Transporte,Combustível,despesa,395.00
+2025-03-17,Educação,Curso de inglês,despesa,350.00
+2025-03-20,Saúde,Plano de saúde,despesa,450.00
+2025-03-22,Lazer,Viagem de fim de semana,despesa,1400.00
+2025-03-25,Investimentos,Aporte Tesouro Selic,despesa,800.00
